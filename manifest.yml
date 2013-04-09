@@ -1,9 +1,9 @@
 --- 
 applications: 
-- memory: 512M
+- memory: 128M
   runtime: java
   framework: standalone
   path: .
-  instances: 4
-  name: rasputin
+  instances: 16
+  name: cookieminer2
  

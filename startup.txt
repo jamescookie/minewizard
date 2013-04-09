@@ -1,2 +1,2 @@
-java $JAVA_OPTS -Ddw.http.port=${VCAP_APP_PORT} -Ddw.http.adminPort=${VCAP_APP_PORT} -jar build/libs/minewizard-0.0.1-fat.jar server src/dist/config/notroll.yml
+java $JAVA_OPTS -Ddw.http.port=${VCAP_APP_PORT} -Ddw.http.adminPort=${VCAP_APP_PORT} -jar build/libs/minewizard-0.0.1-fat.jar server src/dist/config/prod.yml
 

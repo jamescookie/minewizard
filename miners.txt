@@ -1,0 +1,29 @@
+process:
+create cloud foundry account
+vmc login cookieminer<x>@mailinator.com
+enter password from email
+vmc passwd 
+update manifest.yml with new <x>
+vmc push
+enter startup command from startup.txt
+accept domain (should match <x>)
+vmc stats
+vmc logs cookieminer<x> --all
+vmc logout
+
+cookieminer1 - 5 
+credentials:  "jamescookie.1:x"
+host: "http://eu.notroll.in:6332"
+
+cookieminer6 - 10
+credentials:  "jamescookie.1:x"
+host: "http://eu-pool-d.give-me-ltc.com:80"
+
+cookieminer11 - 15 
+credentials:  "jamescookie.2:x"
+host: "http://eu.notroll.in:6332"
+
+cookieminer16 - 20 
+credentials:  "jamescookie.2:x"
+host: "http://eu-pool-d.give-me-ltc.com:80"
+
