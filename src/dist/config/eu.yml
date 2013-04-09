@@ -1,0 +1,10 @@
+http:
+
+  # The port on which the HTTP server listens for service requests.
+  port: 8000
+
+  # The port on which the HTTP server listens for administrative requests.
+  adminPort: 8001
+
+credentials:  "LWP85VZt8hLKi9nBYhoHsCBgNm5jNoPREk:litepool.eu"
+host: "http://www.litepool.eu:80"

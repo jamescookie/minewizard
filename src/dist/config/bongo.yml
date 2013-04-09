@@ -1,0 +1,10 @@
+http:
+
+  # The port on which the HTTP server listens for service requests.
+  port: 8000
+
+  # The port on which the HTTP server listens for administrative requests.
+  adminPort: 8001
+
+credentials:  "bongobongo.1:1234"
+host: "http://litebonk.com:8344"

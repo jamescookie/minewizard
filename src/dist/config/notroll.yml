@@ -1,0 +1,10 @@
+http:
+
+  # The port on which the HTTP server listens for service requests.
+  port: 8000
+
+  # The port on which the HTTP server listens for administrative requests.
+  adminPort: 8001
+
+credentials:  "bungolio.1:12345"
+host: "http://notroll.in:6332"

@@ -1,0 +1,9 @@
+--- 
+applications: 
+- memory: 512M
+  runtime: java
+  framework: standalone
+  path: .
+  instances: 4
+  name: rasputin
+ 
