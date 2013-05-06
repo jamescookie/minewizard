@@ -5,5 +5,5 @@ applications:
   framework: standalone
   path: .
   instances: 16
-  name: cookieminer2
+  name: cookieminer5
  

@@ -6,6 +6,6 @@ http:
   # The port on which the HTTP server listens for administrative requests.
   adminPort: 8001
 
-credentials:  "jamescookie.2:x"
-#host: "http://eu.notroll.in:6332"
-host: "http://eu-pool-d.give-me-ltc.com:80"
+credentials:  "jamescookie.1:x"
+host: "http://notroll.in:6332"
+#host: "http://eu-pool-d.give-me-ltc.com:80"
